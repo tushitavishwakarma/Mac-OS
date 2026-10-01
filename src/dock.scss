@@ -6,6 +6,7 @@
     bottom: 1rem;
     left: 50%;
     transform: translateX(-50%);
+    z-index: 30;
 
     background-color: rgba(63, 63, 63, 0.395);
     padding-inline: 1rem;
@@ -20,6 +21,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        border: 0;
+        cursor: pointer;
 
         aspect-ratio: 1/1;
         width: 3.75rem;
